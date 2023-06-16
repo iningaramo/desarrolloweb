@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+/* font-family: 'Inter', sans-serif; */
+
+/* #F6F1F1
+#aebdc4
+#19A7CE
+#010b0f */
+
+html {
+    font-family: 'Inter', sans-serif;
+    font-size: 62.5%;
+}
+html h1{
+    font-size: 6rem;
+}
+html h2{
+    font-size: 4.5rem;
+}
+html h3{
+    font-size: 2.5rem;
+}
+
+html p{
+    font-size: 2rem;
+}
+
+.card-title-index {
+    font-size: 4rem;
+}
+
+.btn p {
+    font-size: 2.5rem
+}
+
+/* header */
+
+header {
+    background-color: #010b0f;
+    padding: 20px;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header a {
+    color: #F6F1F1;
+    text-decoration: none;
+    ;
+}
+
+header img {
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.link{
+    color: #F6F1F1;
+    font-size: 1.5rem;
+}
+header ul:nth-child(2){
+    display: none;
+} 
+
+/* main index */
+
+.tituloIndex {
+    text-align: center;
+    background-image: url(../medios/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 160px 0px;
+    color: #F6F1F1;
+}
+
+.tituloIndex p {
+    font-size: 2rem;
+}
+
+.tituloIndex h1 {
+    font-size: 6rem;
+}
+
+.navbar-toggler {
+    background-color: #F6F1F1;
+}
+
+.collapse-navbar-collapse {
+    text-align: start;
+}
+
+/* index section vectores --------------------------------------------------------------------------------------- */
+
+.presentacion {
+    background-color: #F6F1F1;
+    padding: 80px;
+}
+
+.presentacion h3 {
+    text-align: start;
+    color: #010b0f;
+    text-decoration: none;
+}
+
+.contenedor-grid-vect {
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 16px; 
+}
+
+.contenedor-grid-vectores {
+    display: grid; 
+    gap: 16px; 
+    grid-template-columns: repeat(2, 1fr); 
+}
+
+@media (max-width: 768px) {
+    .contenedor-grid-vectores {
+      grid-template-columns: 1fr;
+    }
+}
+
+.contenedor-grid-vectores img {
+    opacity: 0.5;
+}
+
+.card-text-bg-dark h3 {
+    text-align: start;
+    color: #F6F1F1;
+    text-decoration: none;
+}
+
+.card-img-overlay h3{
+    text-align: start;
+    color: #F6F1F1;
+    text-decoration: none;
+}
+
+.card-text-bg-dark {
+    text-shadow: 1px -1px 25px rgb(0, 0, 0);
+}
+
+.btn {
+    background-color: #010b0f;
+    height: 48px
+}
+
+/* nuestra metodología */
+
+.aprender {
+    background-color: #aebdc4;
+    padding: 80px 80px;
+}
+
+.aprender h2 {
+    text-align: center;
+    color: #010b0f;
+    text-decoration: none;
+}
+
+.aprender h3 {
+    text-align: start;
+    text-decoration: none;
+}
+
+.divPadreFlex {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 16px;
+}
+
+@media (max-width: 768px) {
+    .divPadreFlex {
+      grid-template-columns: 1fr;
+    }
+}
+
+.icon-svg {
+    width:"48px"; 
+    height:"48px";
+}
+
+.card-icon {
+    align-items: center;
+}
+
+.icon-container {
+    display: inline-block;
+    justify-content: space-around ;
+    align-items: center;
+    width: 72px; /* Ajusta el ancho deseado del icono */
+    height: 72px;
+    fill: red
+}
+
+/* Nosotros --------------------------------------------------------------------------------------- */
+
+.tituloNosotros {
+    text-align: center;
+    background-image: url(../medios/annie-spratt-QckxruozjRg-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 160px 0px;
+    text-shadow: 1px -1px 25px rgb(0, 0, 0);
+    color: #F6F1F1;
+}
+
+.card-iconos img{
+    margin: 16px 80px;
+    border: 1px solid #b8b8b8;
+    background: none;
+}
+
+.card-img-top-nosotros {
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.container-nosotros {
+    background-color: #aebdc4;
+    width: 100%;
+    font-size: 2rem;
+    align-items: start;
+    padding: 60px;
+    color: #010b0f;
+}
+
+@media (max-width: 767.98px) {
+    .col-lg-3,
+    .col-md-6 {
+      flex-basis: 100%;
+      max-width: 100%;
+    }
+}
+
+/* oficios --------------------------------------------------------------------------------- */
+
+.oficios {
+    text-align: center;
+    background-image: url(../medios/banner-oficios.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 160px 0px;
+    text-shadow: 1px -1px 25px rgb(0, 0, 0);
+    color: #F6F1F1;
+}
+
+.card-container {
+    background-color: #aebdc4;
+}
+
+.card-text {
+    font-size: 1.5rem;
+}
+
+.card-container{
+    display: grid; 
+    gap: 16px; 
+    grid-template-columns: repeat(3, 1fr); 
+    padding: 80px;
+}
+
+@media (max-width: 768px) {
+    .card-container {
+      grid-template-columns: 1fr;
+    }
+}
+    
+.card-iconos {
+    margin: 16px auto;
+    border: 1px solid #b8b8b8;
+}
+
+/* Ofertas --------------------------------------------------------------------------------------- */
+
+.container-ofertas img{
+    height: 540px;
+}
+
+.container-ofertas {
+text-shadow: 1px -1px 25px rgb(0, 0, 0);
+}
+
+/* Contactanos --------------------------------------------------------------------------------------- */
+
+
+.tituloContacto {
+    text-align: center;
+    background-image: url(../medios/pavan-trikutam-71CjSSB83Wo-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 160px 0px;
+    text-shadow: 1px -1px 25px rgb(0, 0, 0);
+    color: #F6F1F1;
+}
+
+.container {
+    background-color: #aebdc4;
+    width: 50%;
+    margin: 16px auto;
+    border-radius: 10px;
+    font-size: 2rem;
+    margin-bottom: 80px;
+    align-items: start;
+    padding: 60px;
+    color: #010b0f;
+}
+  
+.form-group {
+    margin-bottom: 40px; 
+}
+
+.label {
+    font-size: 2rem;
+}
+
+.form-control {
+    font-size: 1.5rem;
+}
+
+.mapa-google {
+    background-color: #aebdc4;
+    align-items: start;
+    padding: 80px 80px 80px 80px;
+    color: #010b0f;
+    background-color: #ccc;
+
+}
+
+input{
+    width: 80%;
+    margin: 16px auto;
+}
+
+.boton{
+    padding: 10px;
+    background-color: #010b0f;
+    border-radius: 8px;
+    font-size: 2rem;
+    color: #aebdc4;
+}
+
+/* footer */
+footer {
+    grid: row;
+    background-color: #F6F1F1;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.5rem;
+}
+
+.footer img {
+    width: 4%;
+}
