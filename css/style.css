@@ -182,15 +182,20 @@ header ul:nth-child(2){
     height:"48px";
 }
 
-.card-icon {
+.card-body {
     align-items: center;
+    justify-content: center;
+}
+
+.card-img-center {
+    width: 50%;
 }
 
 .icon-container {
     display: inline-block;
     justify-content: space-around ;
     align-items: center;
-    width: 72px; /* Ajusta el ancho deseado del icono */
+    width: 72px;
     height: 72px;
     fill: red
 }
