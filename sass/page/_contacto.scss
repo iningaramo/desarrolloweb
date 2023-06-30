@@ -1,0 +1,58 @@
+/* Contacto----------------------------------------------------------------------- */
+.mainContacto{
+    .tituloContacto {
+        text-align: center;
+        background-image: url(../medios/pavan-trikutam-71CjSSB83Wo-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        padding: 160px 0px;
+        text-shadow: 1px -1px 25px rgb(0, 0, 0);
+        color: #F6F1F1;
+    }
+    
+    .container {
+        background-color: #aebdc4;
+        width: 50%;
+        margin: 16px auto;
+        border-radius: 10px;
+        font-size: 2rem;
+        margin-bottom: 80px;
+        align-items: start;
+        padding: 60px;
+        color: #010b0f;
+
+        .form-group {
+            margin-bottom: 40px; 
+
+            .label {
+                font-size: 2rem;
+            }
+            
+            .form-control {
+                font-size: 1.5rem;
+            }
+            input{
+                width: 80%;
+                margin: 16px auto;
+            }
+        }
+        .boton{
+            padding: 10px;
+            background-color: #010b0f;
+            border-radius: 8px;
+            font-size: 2rem;
+            color: #aebdc4;
+        }
+        
+    }
+    .mapa-google {
+        background-color: #aebdc4;
+        align-items: start;
+        padding: 80px 80px 80px 80px;
+        color: #010b0f;
+        background-color: #ccc;
+
+    }
+}
+

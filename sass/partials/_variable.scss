@@ -1,0 +1,16 @@
+$font: 'Inter', sans-serif;
+// paleta
+$primario: #041562;
+$secundario: #11468F;
+$negro:#010b0f;
+$blanco: #F6F1F1;
+$gris: #aebdc4;
+
+// mixin
+
+@mixin flex ($direccion,$justify,$aling){
+    display: flex;
+    flex-direction: $direccion;
+    justify-content: $justify;
+    align-items: $aling;
+}

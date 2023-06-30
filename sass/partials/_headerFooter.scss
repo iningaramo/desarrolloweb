@@ -1,0 +1,41 @@
+/* header */
+header {
+    background-color: #010b0f;
+    padding: 20px;
+
+    ul {
+        list-style-type: none;
+    }
+    a {
+        color: #F6F1F1;
+        text-decoration: none;
+        ;
+    }
+    img {
+        width: 80px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }    
+    ul:nth-child(2){
+        display: none;
+    } 
+    .link{
+        color: #F6F1F1;
+        font-size: 1.5rem;
+    }
+}
+
+
+/* footer */
+footer {
+    grid: row;
+    background-color: #F6F1F1;
+    padding: 20px;
+    text-align: center;
+    p {
+        font-size: 1.5rem;
+    }
+    img {
+        width: 4%;
+    }
+}

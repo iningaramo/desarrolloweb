@@ -1,0 +1,21 @@
+.oficios {
+    text-align: center;
+    background-image: url(../medios/banner-oficios.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 160px 0px;
+    text-shadow: 1px -1px 25px rgb(0, 0, 0);
+    color: #F6F1F1;
+    .card-container {
+        background-color: #aebdc4;
+        display: grid; 
+        gap: 16px; 
+        grid-template-columns: repeat(3, 1fr); 
+        padding: 80px;
+    }
+    @media (max-width: 768px) {
+        .card-container {
+          grid-template-columns: 1fr;
+        }
+    }
+}

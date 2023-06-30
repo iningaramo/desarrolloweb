@@ -1,0 +1,28 @@
+.tituloNosotros {
+    text-align: center;
+    background-image: url(../medios/annie-spratt-QckxruozjRg-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 160px 0px;
+    text-shadow: 1px -1px 25px rgb(0, 0, 0);
+    color: #F6F1F1;
+}
+.container-nosotros {
+    background-color: #aebdc4;
+    width: 100%;
+    font-size: 2rem;
+    align-items: start;
+    padding: 60px;
+    color: #010b0f;
+    .img{
+        margin: 16px 80px;
+        border: 1px solid #b8b8b8;
+        background: none;
+    }
+    .card-img-top-nosotros {
+        width: 80px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+}

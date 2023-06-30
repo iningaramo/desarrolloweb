@@ -1,0 +1,88 @@
+.tituloIndex {
+    text-align: center;
+    background-image: url(../medios/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 160px 0px;
+    color: #F6F1F1;
+    h1 {
+        font-size: 6rem;
+    }
+    p {
+        font-size: 2rem;
+    }
+}
+.presentacion {
+    background-color: #F6F1F1;
+    padding: 80px;
+    .contenedor-grid-vect {
+        text-align: center;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 16px; 
+    }
+    .contenedor-grid-vectores {
+        display: grid; 
+        gap: 16px; 
+        grid-template-columns: repeat(2, 1fr); 
+        img {
+            opacity: 0.5;
+        }
+        .card-text-bg-dark {
+            text-shadow: 1px -1px 25px rgb(0, 0, 0);
+            h3{
+                text-align: start;
+                color: #F6F1F1;
+                text-decoration: none;
+            }
+        }
+    }
+    @media (max-width: 768px) {
+        .contenedor-grid-vectores {
+          grid-template-columns: 1fr;
+        }
+    }
+    
+}
+
+.btn {
+    background-color: #010b0f;
+    height: 48px
+}
+
+/* nuestra metodología */
+
+.aprender {
+    background-color: #aebdc4;
+    padding: 80px 80px;
+    h2 {
+        text-align: center;
+        color: #010b0f;
+        text-decoration: none;
+    }
+    h3 {
+        text-align: start;
+        text-decoration: none;
+    }
+    .card-body {
+        align-items: center;
+        justify-content: center;
+        .card-img-center {
+            width: 50%;
+        }
+        .icon-svg {
+            width:"48px"; 
+            height:"48px";
+        }
+    }
+}
+
+
+.icon-container {
+    display: inline-block;
+    justify-content: space-around ;
+    align-items: center;
+    width: 72px;
+    height: 72px;
+    fill: red
+}
