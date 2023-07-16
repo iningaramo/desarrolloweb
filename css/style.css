@@ -10,17 +10,20 @@ html {
     font-family: 'Inter', sans-serif;
     font-size: 62.5%;
 }
-html h1{
+
+html h1 {
     font-size: 6rem;
 }
-html h2{
+
+html h2 {
     font-size: 4.5rem;
 }
-html h3{
+
+html h3 {
     font-size: 2.5rem;
 }
 
-html p{
+html p {
     font-size: 2rem;
 }
 
@@ -30,6 +33,11 @@ html p{
 
 .btn p {
     font-size: 2.5rem
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #aebdc4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 /* header */
@@ -55,13 +63,14 @@ header img {
     margin-left: 5px;
 }
 
-.link{
+.link {
     color: #F6F1F1;
     font-size: 1.5rem;
 }
-header ul:nth-child(2){
+
+header ul:nth-child(2) {
     display: none;
-} 
+}
 
 /* main index */
 
@@ -106,19 +115,29 @@ header ul:nth-child(2){
 
 .contenedor-grid-vect {
     text-align: center;
-    grid-template-columns: repeat(2, 1fr); 
-    gap: 16px; 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding-bottom: 20px;
+}
+
+.card {
+    transition: 0.5s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    scale: 1.02;
 }
 
 .contenedor-grid-vectores {
-    display: grid; 
-    gap: 16px; 
-    grid-template-columns: repeat(2, 1fr); 
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 @media (max-width: 768px) {
     .contenedor-grid-vectores {
-      grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
 }
 
@@ -132,7 +151,7 @@ header ul:nth-child(2){
     text-decoration: none;
 }
 
-.card-img-overlay h3{
+.card-img-overlay h3 {
     text-align: start;
     color: #F6F1F1;
     text-decoration: none;
@@ -158,6 +177,7 @@ header ul:nth-child(2){
     text-align: center;
     color: #010b0f;
     text-decoration: none;
+    padding-bottom: 20px;
 }
 
 .aprender h3 {
@@ -167,22 +187,22 @@ header ul:nth-child(2){
 
 .divPadreFlex {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(4, 1fr);
     gap: 16px;
 }
 
 @media (max-width: 768px) {
     .divPadreFlex {
-      grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
 }
 
 .icon-svg {
-    width:"48px"; 
-    height:"48px";
+    width: "48px";
+    height: "48px";
 }
 
-.card-body {
+.card-icon {
     align-items: center;
     justify-content: center;
 }
@@ -191,9 +211,13 @@ header ul:nth-child(2){
     width: 50%;
 }
 
+.card-icon:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
 .icon-container {
     display: inline-block;
-    justify-content: space-around ;
+    justify-content: space-around;
     align-items: center;
     width: 72px;
     height: 72px;
@@ -213,7 +237,7 @@ header ul:nth-child(2){
     color: #F6F1F1;
 }
 
-.card-iconos img{
+.card-iconos img {
     margin: 16px 80px;
     border: 1px solid #b8b8b8;
     background: none;
@@ -235,10 +259,37 @@ header ul:nth-child(2){
 }
 
 @media (max-width: 767.98px) {
+
     .col-lg-3,
     .col-md-6 {
-      flex-basis: 100%;
-      max-width: 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+
+.sobre-nosotros {
+    padding: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo {
+    flex-basis: 50%;
+}
+
+.bloque-texto {
+    flex-basis: 50%;
+}
+
+@media (max-width: 767px) {
+    .sobre-nosotros {
+        display: block;
+        padding: 40px;
+    }
+
+    .titulo,
+    .bloque-texto {
+        flex-basis: 100%;
     }
 }
 
@@ -262,19 +313,19 @@ header ul:nth-child(2){
     font-size: 1.5rem;
 }
 
-.card-container{
-    display: grid; 
-    gap: 16px; 
-    grid-template-columns: repeat(3, 1fr); 
+.card-container {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
     padding: 80px;
 }
 
 @media (max-width: 768px) {
     .card-container {
-      grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
 }
-    
+
 .card-iconos {
     margin: 16px auto;
     border: 1px solid #b8b8b8;
@@ -282,12 +333,12 @@ header ul:nth-child(2){
 
 /* Ofertas --------------------------------------------------------------------------------------- */
 
-.container-ofertas img{
+.container-ofertas img {
     height: 540px;
 }
 
 .container-ofertas {
-text-shadow: 1px -1px 25px rgb(0, 0, 0);
+    text-shadow: 1px -1px 25px rgb(0, 0, 0);
 }
 
 /* Contactanos --------------------------------------------------------------------------------------- */
@@ -314,9 +365,9 @@ text-shadow: 1px -1px 25px rgb(0, 0, 0);
     padding: 60px;
     color: #010b0f;
 }
-  
+
 .form-group {
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
 }
 
 .label {
@@ -327,39 +378,102 @@ text-shadow: 1px -1px 25px rgb(0, 0, 0);
     font-size: 1.5rem;
 }
 
-.mapa-google {
-    background-color: #aebdc4;
-    align-items: start;
-    padding: 80px 80px 80px 80px;
-    color: #010b0f;
-    background-color: #ccc;
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 40px;
+    }
 }
 
-input{
+input {
     width: 80%;
     margin: 16px auto;
 }
 
-.boton{
-    padding: 10px;
+.boton {
+    padding: 10px 20px;
     background-color: #010b0f;
-    border-radius: 8px;
-    font-size: 2rem;
-    color: #aebdc4;
+    color: #F6F1F1;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: box-shadow 1s ease;
+}
+
+.boton:hover {
+    color: #010b0f;
+    background-color: #F6F1F1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.mapa-google {
+    background-color: #aebdc4;
+    align-items: start;
+    color: #010b0f;
+    padding: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textomapa {
+    flex-basis: 50%;
+}
+
+.visormapa {
+    flex-basis: 50%;
+}
+
+@media (max-width: 767px) {
+    .mapa-google {
+        display: block;
+        padding: 40px;
+    }
+
+    .textomapa,
+    .visormapa {
+        flex-basis: 100%;
+}
 }
 
 /* footer */
-footer {
-    grid: row;
-    background-color: #F6F1F1;
-    padding: 20px;
+
+.footer {
+    position: relative;
+    background-color: #aebdc4;
     text-align: center;
 }
 
-footer p {
-    font-size: 1.5rem;
+.footerin {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px 20px 80px;
+    background-color: #F6F1F1;
 }
 
-.footer img {
-    width: 4%;
+.footerin p {
+    flex-basis: 100%;
+}
+
+.logotipos img {
+    width: 30px;
+    height: 30px;
+    margin-right: 16px;
+}
+
+@media (min-width: 768px) {
+    .footerin p {
+        flex-basis: auto;
+    }
+
+    .footerin img {
+        margin-left: 0;
+        margin-top: 16px;
+    }
+}
+
+.logotipos img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }

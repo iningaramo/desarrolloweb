@@ -16,28 +16,28 @@
     <header>
         <nav class="navbar navbar-expand-lg menu">
             <div class="container-fluid">
-                <a href="../index.html"><img src="../medios/logo.png" alt=""></a>
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../medios/logo.png" alt="Logo">
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0  ">
-                            <li class="nav-item">
-                                <a class="nav-link link" aria-current="page" href="oficios.html">Oficios</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link" href="ofertas.html">Ofertas</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link" href="nosotros.html">Nosotros</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link link" href="contacto.html">Contactanos</a>
-                            </li>
-                        </ul>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link link" aria-current="page" href="oficios.html">Oficios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="ofertas.html">Ofertas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link" href="contacto.html">Contactanos</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -78,20 +78,33 @@
                 </form>
             </div>
             <div class="mapa-google">
-                <h2>Nuestras sucursales</h2>
-                <p>Puedes encontrarnos en:</p>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35595148.42611383!2d-115.36512346645007!3d2.9630702150990516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc945173b3dd7%3A0xe8a347bb55df550c!2sCoderhouse!5e0!3m2!1ses-419!2sar!4v1682467424496!5m2!1ses-419!2sar"
-                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <section class="textomapa">
+                    <h2>Nuestras sucursales</h2>
+                    <p>Puedes encontrarnos en:</p>
+                </section>
+                <section class="visormapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35595148.42611383!2d-115.36512346645007!3d2.9630702150990516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc945173b3dd7%3A0xe8a347bb55df550c!2sCoderhouse!5e0!3m2!1ses-419!2sar!4v1682467424496!5m2!1ses-419!2sar"
+                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
             </div>
         </section>
     </main>
     <footer>
         <section class="footer">
-            <p>Hecho con amor por Ignacio Nicolás Ingaramo</p>
-            <a href="https://www.facebook.com/"><img src="../medios/facebook.png" alt=""> </a>
-            <a href="https://www.instagram.com/"><img src="../medios/instagram.png" alt=""></a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#F6F1F1" fill-opacity="1"
+                    d="M0,128L48,106.7C96,85,192,43,288,64C384,85,480,171,576,224C672,277,768,299,864,266.7C960,235,1056,149,1152,138.7C1248,128,1344,192,1392,224L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+            <section class="footerin">
+                <p>Hecho con amor por Ignacio Nicolás Ingaramo</p>
+                <section class="logotipos">
+                <a href="https://www.facebook.com/"><img src="../medios/facebook.png" alt=""> </a>
+                <a href="https://www.instagram.com/"><img src="../medios/instagram.png" alt=""></a>
+            </section>
+            </section>
         </section>
     </footer>
     <!-- bs -->

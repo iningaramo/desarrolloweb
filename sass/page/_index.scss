@@ -37,6 +37,7 @@
             }
         }
     }
+
     @media (max-width: 768px) {
         .contenedor-grid-vectores {
           grid-template-columns: 1fr;
@@ -64,7 +65,7 @@
         text-align: start;
         text-decoration: none;
     }
-    .card-body {
+    .card-icon {
         align-items: center;
         justify-content: center;
         .card-img-center {
@@ -77,6 +78,9 @@
     }
 }
 
+.fondo {
+    background-color: #aebdc4;
+}
 
 .icon-container {
     display: inline-block;
