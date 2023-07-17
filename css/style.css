@@ -341,6 +341,33 @@ header ul:nth-child(2) {
     text-shadow: 1px -1px 25px rgb(0, 0, 0);
 }
 
+.sobre-ofertas {
+    background-color: #aebdc4;
+    padding: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo {
+    flex-basis: 50%;
+}
+
+.bloque-texto {
+    flex-basis: 50%;
+}
+
+@media (max-width: 767px) {
+    .sobre-ofertas {
+        display: block;
+        padding: 40px;
+    }
+
+    .titulo,
+    .bloque-texto {
+        flex-basis: 100%;
+    }
+}
+
 /* Contactanos --------------------------------------------------------------------------------------- */
 
 .tituloContacto {
@@ -482,6 +509,7 @@ input {
     }
 
     .footerin img {
+        align-items: center;
         margin-left: 0;
         margin-top: 16px;
     }
