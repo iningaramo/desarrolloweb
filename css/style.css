@@ -436,6 +436,19 @@ input {
 }
 }
 
+/* 404 */
+
+.container404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error-image {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
 /* footer */
 
 .footer {
